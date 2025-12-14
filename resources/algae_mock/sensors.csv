@@ -1,0 +1,28 @@
+id,name,description,unit,example
+AA_TEMP_BIO,Bioreactor Temperature,Measures the temperature of the algae culture in the main bioreactor R-501. Critical for cell viability.,°C,28.5
+AA_TEMP_INLET,Inlet Broth Temperature,Monitors the temperature of the incoming sterile nutrient broth before entering the bioreactor.,°C,25.1
+AA_TEMP_MID,Bioreactor Mid Temperature,Temperature sensor at the midpoint of the bioreactor for detecting thermal gradients.,°C,28.6
+AA_TEMP_OUTLET,Bioreactor Outlet Temperature,Temperature at the bioreactor discharge point where culture exits to separator.,°C,28.4
+AA_TEMP_PRODUCT,Product Storage Temperature,Temperature of the final purified protein solution in refrigerated storage tank T-506. Must stay below 8°C.,°C,4.0
+AA_PRESSURE_BIO,Bioreactor Pressure,Operating pressure inside the main bioreactor R-501. High pressure triggers relief valve at 1.8 bar.,bar,1.2
+AA_PRESSURE_SEP,Separator Pressure,Operating pressure of the centrifugal separator S-504. Must match feed flow rate.,bar,2.5
+AA_PRESSURE_DIFF,Filter Differential Pressure,Pressure drop across the protein filtration unit F-505 membranes. Indicates fouling level.,bar,0.5
+AA_LEVEL_BIO,Bioreactor Level,Liquid level inside the main bioreactor. Below 20% causes agitator damage.,%,75.0
+AA_LEVEL_CULTURE,Culture Tank Level,Level in the culture holding tank upstream of the bioreactor.,%,65.8
+AA_LEVEL_STORAGE,Storage Tank Level,Level in the final product storage tank T-506. Above 98% causes overflow risk.,%,80.2
+AA_PH_BIO,Bioreactor pH,pH level of the algae culture. Optimal range 6.5-7.1. Outside 6.2-7.4 halts metabolism.,pH,6.8
+AA_OXYGEN_LEVEL,Dissolved Oxygen,Dissolved oxygen concentration in the culture. Below 8 ppm causes anaerobic conditions.,ppm,15.1
+AA_DENSITY_BIO,Culture Density,Biomass concentration (cell density) in the bioreactor. Target 85 g/L for harvest.,g/L,85.3
+AA_PURITY_I,Protein Purity,Inferred purity of the final bioluminescent protein product from online analyzer QI-401.,%,99.5
+AA_CONC_PRODUCT,Product Concentration,Concentration of the purified protein in the final product stream.,g/L,10.2
+AA_FEED_FLOW,Nutrient Feed Flow,Flow rate of sterile nutrient broth into the bioreactor. Controlled by FC-201.,L/hr,250
+AA_PRODUCT_FLOW,Product Outlet Flow,Flow rate of purified protein solution to storage tank.,L/hr,50
+AA_RECYCLE_FLOW,Separator Recycle Flow,Flow rate of recycled spent broth from separator back to nutrient preparation.,L/hr,75.5
+AA_LIGHT_INT,Light Intensity,Intensity of the photosynthesis lamp arrays C-503 A/B. Above 1600 causes photoinhibition.,µmol/m²/s,1200
+AA_LIGHT_RATIO,Light to Feed Ratio,Calculated ratio of light intensity to feed flow rate. Optimal range 4.0-6.0.,ratio,4.8
+AA_GLUCOSE_MOL,Glucose Concentration,Mole percentage of glucose in the nutrient broth. Above 8% indicates nitrogen limitation.,%,5.5
+AA_PROTEIN_MOL,Protein Molar Fraction,Mole percentage of target protein in the bioreactor mixture.,%,15.2
+AA_ACTIVITY,Culture Activity,Percentage of metabolically active cells in the bioreactor. Drop indicates stress.,%,95.4
+AA_AERATION_RATE,Aeration Rate,Air flow rate into the bioreactor for oxygen supply.,L/min,25.0
+AA_AGITATOR_POWER,Agitator Power,Power consumption of the bioreactor agitator motor. Above 120% indicates overload.,%,85.0
+AA_VISCOSITY,Culture Viscosity,Measured viscosity of the culture medium. Increases with cell density.,cP,12.5
